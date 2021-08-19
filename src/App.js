@@ -4,8 +4,8 @@ import Homepage from "./pages/home/Homepage";
 function App() {
   return (
     <div >
-     <Homepage/>
-     
+          <Homepage/>
+            
     </div>
   );
 }
