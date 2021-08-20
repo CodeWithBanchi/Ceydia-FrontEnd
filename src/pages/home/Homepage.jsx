@@ -3,6 +3,8 @@ import Rightbar from '../../components/rightbar/Rightbar.jsx'
 import Sodebar from '../../components/sidebar/Sodebar.jsx'
 import Topbar from '../../components/topbar/Topbar.jsx'
 import Feed from '../../components/feed/Feed.jsx'
+import "./Home.css"
+
 function Homepage() {
     return (
 <>
@@ -11,6 +13,7 @@ function Homepage() {
           <Sodebar/>
           <Feed/>
           <Rightbar/>
+         
     </div>
 </>
     );

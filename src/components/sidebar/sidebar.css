@@ -1,0 +1,24 @@
+.sidebar{
+    flex:3;
+    background-color:yellow;
+    height:calc(100vh - 50px);
+}
+.sidebarWrapper{
+    padding:20px;
+    background-color:yellow; 
+}
+.sidebarList{
+     padding:0;
+     margin:0;
+     list-style: none;
+
+}
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-right: 15px;
+}
+.sidebarListText{
+    margin-left: 15px;
+}

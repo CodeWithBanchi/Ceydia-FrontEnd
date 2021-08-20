@@ -3,7 +3,7 @@ import "./rightbar.css"
 
 export default function Rightbar() {
     return (
-        <div>
+        <div classame= "rightbar">
             rightbar
         </div>
     )
