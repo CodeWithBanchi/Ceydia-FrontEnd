@@ -1,6 +1,11 @@
 import React from 'react'
 import "./sidebar.css"
 import { RssFeed } from "@material-ui/icons"
+import ChatIcon from '@material-ui/icons/Chat';
+import GroupIcon from '@material-ui/icons/Group';
+import EventAvailableIcon from '@material-ui/icons/EventAvailable';
+import AnnouncementIcon from '@material-ui/icons/Announcement';
+import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
 
 export default function Sodebar() {
     return (
@@ -10,41 +15,74 @@ export default function Sodebar() {
                    <li className="sidebarListItem">
                        <RssFeed/>
                        <span className="sidebarListText">
-                           Rss Feeds 
+                           News Feed 
                        </span>
                    </li>
                    <li className="sidebarListItem">
-                       <RssFeed/>
+                       <ChatIcon/>
                        <span className="sidebarListText">
-                           Rss Feeds 
+                           Chats 
                        </span>
                    </li>
                    <li className="sidebarListItem">
-                       <RssFeed/>
+                       <GroupIcon/>
                        <span className="sidebarListText">
-                           Rss Feeds 
+                           Groups 
                        </span>
                    </li>
                    <li className="sidebarListItem">
-                       <RssFeed/>
+                       <EventAvailableIcon/>
                        <span className="sidebarListText">
-                           Rss Feeds 
+                           Events
                        </span>
                    </li>
                    <li className="sidebarListItem">
-                       <RssFeed/>
+                       <AnnouncementIcon/>
                        <span className="sidebarListText">
-                           Rss Feeds 
+                           News
                        </span>
                    </li>
                    <li className="sidebarListItem">
-                       <RssFeed/>
+                       <SportsEsportsIcon/>
                        <span className="sidebarListText">
-                           Rss Feeds 
+                           Games 
                        </span>
                    </li>
                    
                </ul>
+              <button className="sidebarButton">Show more </button>
+              <hr className="sidebarHr"/>
+              <ul className="sidebarFriendList">
+                  <li className="sidebarfriend">
+                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
+                      <span className="friendName">Kasun Gayantha</span>
+                  </li>
+                  <li className="sidebarfriend">
+                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
+                      <span className="friendName">Kasun Gayantha</span>
+                  </li>
+                  <li className="sidebarfriend">
+                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
+                      <span className="friendName">Kasun Gayantha</span>
+                  </li>
+                  <li className="sidebarfriend">
+                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
+                      <span className="friendName">Kasun Gayantha</span>
+                  </li>
+                  <li className="sidebarfriend">
+                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
+                      <span className="friendName">Kasun Gayantha</span>
+                  </li>
+                  <li className="sidebarfriend">
+                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
+                      <span className="friendName">Kasun Gayantha</span>
+                  </li>
+                  <li className="sidebarfriend">
+                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
+                      <span className="friendName">Kasun Gayantha</span>
+                  </li>
+              </ul>
+              
             </div>
         </div>
     )
