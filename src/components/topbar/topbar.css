@@ -5,6 +5,7 @@
     display:flex;
     position:sticky;
     top:0;
+    z-index: 999;
 
 }
 
@@ -38,6 +39,7 @@
      border-radius: 30px;
      display: flex;
      align-items: center;
+     margin-top: 10px;
 
 }
 .searchInput{
@@ -68,6 +70,7 @@
 }
 .topbarIcons{
     display: flex;
+    margin-top: 15px;
 
 }
 .topbariconItem{

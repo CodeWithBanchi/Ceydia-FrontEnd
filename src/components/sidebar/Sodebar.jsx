@@ -6,6 +6,8 @@ import GroupIcon from '@material-ui/icons/Group';
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 import AnnouncementIcon from '@material-ui/icons/Announcement';
 import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
+import {Users} from "../../dummyData";
+import CloseFriends from "../closeFriends/CloseFriends";
 
 export default function Sodebar() {
     return (
@@ -53,34 +55,10 @@ export default function Sodebar() {
               <button className="sidebarButton">Show more </button>
               <hr className="sidebarHr"/>
               <ul className="sidebarFriendList">
-                  <li className="sidebarfriend">
-                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
-                      <span className="friendName">Kasun Gayantha</span>
-                  </li>
-                  <li className="sidebarfriend">
-                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
-                      <span className="friendName">Kasun Gayantha</span>
-                  </li>
-                  <li className="sidebarfriend">
-                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
-                      <span className="friendName">Kasun Gayantha</span>
-                  </li>
-                  <li className="sidebarfriend">
-                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
-                      <span className="friendName">Kasun Gayantha</span>
-                  </li>
-                  <li className="sidebarfriend">
-                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
-                      <span className="friendName">Kasun Gayantha</span>
-                  </li>
-                  <li className="sidebarfriend">
-                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
-                      <span className="friendName">Kasun Gayantha</span>
-                  </li>
-                  <li className="sidebarfriend">
-                      <img src="/files/prof.png" alt="" className="sidebarFriendImg" />
-                      <span className="friendName">Kasun Gayantha</span>
-                  </li>
+                  {Users.map(u=>(
+                      <CloseFriends key={u.id} user={u}/>
+                  ))}
+
               </ul>
               
             </div>
