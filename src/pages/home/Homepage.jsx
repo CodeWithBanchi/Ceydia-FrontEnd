@@ -13,7 +13,6 @@ function Homepage() {
           <Sodebar/>
           <Feed/>
           <Rightbar/>
-         
     </div>
 </>
     );

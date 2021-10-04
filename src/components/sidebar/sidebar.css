@@ -34,7 +34,14 @@
 }
 .sidebarListText{
     margin-left: 15px;
+    text-decoration: none;
+    color:black;
 }
+.sidebarListText:hover{
+   color:brown;
+    font-size: 20px;
+}
+
 .sidebarButton{
     width: 150px;
     border:none;
@@ -66,4 +73,7 @@
 }
 .friendName{
     margin-right: 10px;
+}
+.GlowButton{
+    margin-bottom: 10px;
 }

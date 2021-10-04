@@ -2,52 +2,52 @@ export const Users = [
     {
       id:1,
       profilePicture: "assets/person/1.jpeg",
-      username: "Safak Kocaoglu",
+      username: "Kasun Gayantha",
     },
     {
       id:2,
       profilePicture: "assets/person/2.jpeg",
-      username: "Janell Shrum",
+      username: "Neluni Priyangika",
     },
     {
       id:3,
       profilePicture: "assets/person/3.jpeg",
-      username: "Alex Durden",
+      username: "Chamith Gayantha",
     },
     {
       id:4,
       profilePicture: "assets/person/4.jpeg",
-      username: "Dora Hawks",
+      username: "Mayithripala Sirisena",
     },
     {
       id:5,
       profilePicture: "assets/person/5.jpeg",
-      username: "Thomas Holden",
+      username: "Mahinda Rajapaksha",
     },
     {
       id:6,
       profilePicture: "assets/person/6.jpeg",
-      username: "Shirley Beauchamp",
+      username: "Sunil Perera ",
     },
     {
       id:7,
       profilePicture: "assets/person/7.jpeg",
-      username: "Travis Bennett",
+      username: "Yohani Samaradiwakara",
     },
     {
       id:8,
       profilePicture: "assets/person/8.jpeg",
-      username: "Kristen Thomas",
+      username: "Wimal Wirawansha",
     },
     {
       id:9,
       profilePicture: "assets/person/9.jpeg",
-      username: "Gary Duty",
+      username: "Saman Perera",
     },
     {
       id:10,
       profilePicture: "assets/person/10.jpeg",
-      username: "Safak Kocaoglu",
+      username: "Saliya Perera ",
     }
   ];
   
@@ -60,6 +60,9 @@ export const Users = [
       userId: 1,
       like: 32,
       comment: 9,
+      description:"I am a software engeneering student from NSBm green university of sri lanka. I have a good understandig about software development " +
+          "and web development. And I have completed a software engeneer internship in ABCD company. So that I have a good understanding about how a software is made and the main functions of software development." +
+          "so that I am hoping to start a software company. ",
     },
     {
       id: 2,
@@ -68,6 +71,9 @@ export const Users = [
       userId: 2,
       like: 2,
       comment: 1,
+      description:"I am a software engeneering student from NSBm green university of sri lanka. I have a good understandig about software development " +
+          "and web development. And I have completed a software engeneer internship in ABCD company. So that I have a good understanding about how a software is made and the main functions of software development." +
+          "so that I am hoping to start a software company. ",
     },
     {
       id: 3,
@@ -77,6 +83,7 @@ export const Users = [
       userId: 3,
       like: 61,
       comment: 2,
+
     },
     {
       id: 4,

@@ -3,12 +3,14 @@ import {Search} from "@material-ui/icons"
 import PersonIcon from '@material-ui/icons/Person';
 import MessageIcon from '@material-ui/icons/Message';
 import NotificationsIcon from '@material-ui/icons/Notifications';
+import {Link} from 'react-router-dom';
+
 
 function Topbar() {
     return (
         <div className="topbarcontainer">
             <div className="topbarLeft"> 
-                 <span className="logo">Moodfix</span>
+              <Link className="logo" to="/">Ceydia</Link>
             </div>
 
             <div className="topbarCenter">
@@ -21,7 +23,7 @@ function Topbar() {
             <div className="topbarRight">
 
                 <span className="topbarLink">Homepage</span>
-                <span className="topbarLink">Timeline</span>
+                <Link className="topbarLink" to="/Profile">Timelinee</Link>
                 <div className="topbarIcons">
            <div className="topbariconItem">
                <PersonIcon/>
@@ -39,8 +41,6 @@ function Topbar() {
           
            </div>
            </div>
-           
-        
         </div>
     )
 }

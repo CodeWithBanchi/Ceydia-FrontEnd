@@ -7,7 +7,6 @@ const Register = () => {
             <div className="loginwrapper">
                 <div className="loginLeft">
                     <h3 className="loginLogo">MoodFix</h3>
-
                     <span className="loginDesc">
                         Make your dream idea  real
                     </span>

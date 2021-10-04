@@ -32,8 +32,33 @@ export default function Post({ post } ) {
                             <MoreVert/>
                         </div>
                     </div>
+                    <div className="ideaTitle">
+                        <span>I have an idea to start a sowtware company </span>
+                    </div>
                     <div className="postCenter">
                         <span className="postText">{post?.description}</span>
+                        <div className="postItems">
+                            <div className="Box">
+                                <div className="boxText">
+                                    <span>Estimaded cost: </span>
+                                    <span>Rs.500000</span>
+                                </div>
+                            </div>
+                            <div className="Box">
+                                <div className="boxText">
+                                    <span>My experience: </span>
+                                    <span>Software Engeneering</span>
+                                </div>
+                            </div>
+                            <div className="Box">
+                                <div className="boxText">
+                                    <span>Estimaded Time:  </span>
+                                    <span>1 year </span>
+                                </div>
+                            </div>
+
+
+                        </div>
                         <img src={post.photo} alt="" className="postImage" />
                     </div>
                     <div className="postBottom">
