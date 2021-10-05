@@ -37,8 +37,9 @@ function Topbar() {
                <NotificationsIcon/>
                <span className="topbariconBadge">1</span>
            </div>
+                    <Link className="topbarLink2" to="/Login">LogOut</Link>
            <img src="/files/prof.png" alt="" className="topbarImg" />
-          
+
            </div>
            </div>
         </div>

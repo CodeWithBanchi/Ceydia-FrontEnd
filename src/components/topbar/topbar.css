@@ -100,5 +100,13 @@
     right:-5px;
     align-items:center;
     font-size: 12px;
-    
+}
+.topbarLink2{
+    margin-right: 10px;
+    font-style: 14px;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top:10px;
 }

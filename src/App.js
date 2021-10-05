@@ -20,6 +20,9 @@ function App() {
                        <Route path="/Supplier">
                            <Supplier/>
                        </Route>
+                       <Route path="/Login">
+                           <Login/>
+                       </Route>
                    </Switch>
                 </div>
       </Router>

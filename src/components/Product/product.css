@@ -1,15 +1,10 @@
 .wrapper{
     flex:4;
     margin-right:100px;
-
-
 }
 wrapper1{
     padding:20px;
     margin-right:100px;
-    flex:4;
-    width:100%;
-
 }
 .feedTitle{
     font-family: "Roboto Light";
@@ -35,7 +30,7 @@ wrapper1{
 .productwrapper{
     background-color:white;
     height: 300px;
-    width: 200px;
+    width: 1000px;
     border-radius: 20px;
     -webkit-box-shadow: 1px 5px 23px -6px rgba(0,0,0,0.92);
     box-shadow: 1px 5px 23px -6px rgba(0,0,0,0.92);
@@ -72,7 +67,6 @@ wrapper1{
 }
 .row{
     justify-content:space-between;
-
 }
 .price{
     font-size:25px;
@@ -83,6 +77,3 @@ wrapper1{
     display: block;
     margin-top: 100px;
 }
-.wrapper1{
-    width: 100%;
-    }
