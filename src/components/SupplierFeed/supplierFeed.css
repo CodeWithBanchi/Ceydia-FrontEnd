@@ -12,7 +12,7 @@ wrapper1{
 
 }
 .feedTitle{
-    font-family: "Roboto Light";
+
     font-size: 50px;
     margin-left: 10px;
 
@@ -86,3 +86,10 @@ wrapper1{
 .wrapper1{
     width: 100%;
     }
+.searchIcon{
+    margin-left: 10px;
+}
+.feedTitle{
+    font-size:10px;
+    font-family: "Arial";
+}

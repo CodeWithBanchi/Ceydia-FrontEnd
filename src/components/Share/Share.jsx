@@ -9,8 +9,10 @@
          <div className="share">
              <div className="shareTop">
                 <img className="shareImg" src="/files/prof.png" alt=""/>
-                 <input placeholder="What is your business idea "
-                  className="shareinput" />
+                <div className="shareIdea">
+                    <input placeholder="What is your business idea "
+                           className="shareinput" />
+                </div>
              </div>
              <div className="shareDesc">
                  <input placeholder="Describe Your business idea "

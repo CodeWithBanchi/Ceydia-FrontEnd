@@ -1,16 +1,13 @@
 .share{
     width: 100%;
-    height: 470px;
+    height: 490px;
     border-radius: 10px;
     background-color:white;
     -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35); 
     box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
-
-     
 } 
 .shareWrapper{
     padding: 10px;
-
 }
 .shareImg{
     width: 40px;
@@ -20,7 +17,6 @@
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
-
 }
 .shareTop{
     display: flex;
@@ -34,12 +30,9 @@
     font-family: "Roboto Light";
     margin-top:10px;
     margin-left: 10px;
-
-
 }
 .shareinput:focus{
     outline:none;
-
 }
 .shareHr{
     margin:20px;
@@ -53,8 +46,6 @@
     display: flex;
     margin-right: 20px;
     margin-left: 60px;
-
-  
 }
 .shareOption{
     display: flex;
@@ -111,4 +102,21 @@
     margin-top: 10px;
 }
 
+.shareIdea{
+    margin-left: 1px;
+    background-color:#f8dce7;
+    width:80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 
+}
+.shareDesc:focus{
+    outline:none;
+}
+.shareCost:focus{
+    outline:none;
+}
+.shareinput2{
+    outline: none;
+}

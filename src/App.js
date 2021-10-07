@@ -5,6 +5,7 @@ import Register from "./pages/Register/Register";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Supplier from "./pages/Supplier/Supplier";
+import Advisors from "./pages/Advisors/Advisors";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
                        </Route>
                        <Route path="/Login">
                            <Login/>
+                       </Route>
+                       <Route path="/advisors">
+                           <Advisors/>
                        </Route>
                    </Switch>
                 </div>

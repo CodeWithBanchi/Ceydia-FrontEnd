@@ -9,7 +9,7 @@ function SupplierFeed(props) {
         <div className="wrapper">
           <div className="wrapper1">
             <div className="topPart">
-                <div >
+                <div className="feedTitle" >
                     <span className="feedTitle"> Ceydia Product Supplier Portal </span>
                 </div>
                 <div className="productSearchbox" >

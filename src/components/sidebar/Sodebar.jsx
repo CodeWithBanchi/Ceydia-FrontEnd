@@ -16,6 +16,7 @@ import Spinner from 'react-bootstrap/Spinner'
 import { DropdownButton,Dropdown,Button } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
+
 export default function Sodebar() {
     return (
         <div className= "sidebar">
@@ -38,6 +39,10 @@ export default function Sodebar() {
                        <span className="sidebarListText">
                            Favourite Ideas
                        </span>
+                   </li>
+                   <li className="sidebarListItem">
+                       <GroupIcon/>
+                       <Link className="sidebarListText" to="/advisors">Advisors </Link>
                    </li>
                    <li className="sidebarListItem">
                        <GroupIcon/>
