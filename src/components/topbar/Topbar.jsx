@@ -6,11 +6,13 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import {Link} from 'react-router-dom';
 
 
-function Topbar() {
+function Topbar(props) {
     return (
         <div className="topbarcontainer">
             <div className="topbarLeft"> 
-              <Link className="logo" to="/">Ceydia</Link>
+              <div className="logoCont">
+                  <Link className="logo" to="/">Ceydia</Link>
+              </div>
             </div>
 
             <div className="topbarCenter">
@@ -22,13 +24,14 @@ function Topbar() {
 
             <div className="topbarRight">
 
-                <span className="topbarLink">Homepage</span>
-                <Link className="topbarLink" to="/Profile">Timelinee</Link>
+                <div className="inmode">
+                    <Link className="topbarLink1" to="/investor_mode">{props.mode}</Link>
+                </div>
+                <Link to="/" className="topbarLink">Homepage</Link>
+                <Link className="topbarLink" to="/Profile">Profile</Link>
+
                 <div className="topbarIcons">
-           <div className="topbariconItem">
-               <PersonIcon/>
-               <span className="topbariconBadge">1</span>
-           </div>
+
            <div className="topbariconItem">
                <MessageIcon/>
                <span className="topbariconBadge">1</span>
@@ -37,7 +40,11 @@ function Topbar() {
                <NotificationsIcon/>
                <span className="topbariconBadge">1</span>
            </div>
-                    <Link className="topbarLink2" to="/Login">LogOut</Link>
+                    <div className="topbariconItem">
+                        <PersonIcon/>
+                        <span className="topbariconBadge">10</span>
+                    </div>
+
            <img src="/files/prof.png" alt="" className="topbarImg" />
 
            </div>

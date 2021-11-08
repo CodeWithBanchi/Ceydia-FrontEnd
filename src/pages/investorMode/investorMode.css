@@ -1,0 +1,10 @@
+.inverstorNotifi{
+   background-color:orangered;
+}
+.topNotifi{
+   color:white;
+   margin-left: 10px;
+}
+.mainIndiv{
+   display:flex;
+}

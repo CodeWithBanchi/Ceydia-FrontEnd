@@ -63,9 +63,9 @@ export default function Post({ post } ) {
                     </div>
                     <div className="postBottom">
                         <div className="postBottomLeft">
-                            <ThumbUpAltIcon htmlColor="blue" className="likeIcon" onClick={likehandler}/>
+
                             <FavoriteIcon htmlColor="red" className="likeIcon" onClick={likehandler} />
-                            <span className="postLikeCounter">{like} people like it </span>
+                            <span className="postLikeCounter">{like} people are interested about your idea </span>
                         </div>
                         <div className="postBottomRight">
                             <span className="postCommentText"> {post.component}</span>

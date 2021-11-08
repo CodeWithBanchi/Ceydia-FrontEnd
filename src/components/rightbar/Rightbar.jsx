@@ -12,7 +12,7 @@ export default function Rightbar({profile}) {
             <>
 
                 <img src="/files/prof.png" alt="" className="rightbarAd" />
-                <h4 className="rightbarTitle"> Online Friends </h4>
+                <h4 className="rightbarTitle"> Your Followers </h4>
                 <ul className="friendList">
 
                     {Users.map((u) => (
@@ -26,7 +26,7 @@ export default function Rightbar({profile}) {
         return (
             <>
                 <UserInfo/>
-                <h4 className="rightbarTitle">User Friends </h4>
+                <h4 className="rightbarTitle"> Your Followers</h4>
                 <div className="rightbarfollowings">
                     <img className="rightbarfollowingIMG" src="assets/person/1.jpeg"/>
                     <span className="rightbarfollowingName">Neluni Priyangika</span>
@@ -59,7 +59,7 @@ export default function Rightbar({profile}) {
         )
    }
     return (
-        <div classame= "rightbar">
+        <div className= "rightbar">
             <div className="rightbarWrapper">
                  <ProfileRightBar/>
             </div>

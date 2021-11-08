@@ -1,0 +1,18 @@
+.indfeedDiv{
+    flex:8;
+    background-color:whitesmoke;
+    height:100%;
+    height:calc(100vh - 50px);
+    overflow-y: scroll;
+    position:sticky;
+    top: 50px;
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #a7e1f8;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #214c5d;
+}

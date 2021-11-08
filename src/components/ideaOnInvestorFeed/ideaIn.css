@@ -1,0 +1,49 @@
+.inimagePhoto{
+    height: 120px;
+    width:120px;
+    border-radius:50%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: #f3b0b0;
+}
+.inCenter{
+    display:flex;
+}
+.inIdeaWrapper{
+    background-color:white;
+    border-radius:10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-box-shadow: 1px 5px 23px -6px rgba(0,0,0,0.92);
+    box-shadow: 1px 5px 23px -6px rgba(0,0,0,0.92);
+
+}
+.intopic{
+    margin-left: 160px;
+    font-size:25px;
+    margin-top: 20px;
+}
+.inPara{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height:70px;
+}
+.likeIcon1{
+    margin-left: 123px;
+    margin-bottom: 30px;
+}
+.bottomOption{
+    display:flex;
+    justify-content: space-between;
+    width:600px;
+    margin-left: 140px;
+}
+.opLable{
+    margin-left: 5px;
+}
+.op1{
+    margin-bottom: 20px;
+}

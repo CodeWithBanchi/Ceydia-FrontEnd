@@ -53,7 +53,7 @@ export default function Sodebar() {
                    <li className="sidebarListItem">
                        <AnnouncementIcon/>
                        <span className="sidebarListText">
-                           News
+                           Popular Investors
                        </span>
                    </li>
                    <li className="sidebarListItem">

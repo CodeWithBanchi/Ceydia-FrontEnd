@@ -23,7 +23,7 @@
 }
 
 .rightbarAd{
-    width: 100%; 
+    width: 100%;
     border-radius: 10px;
     margin-top:10px;
     margin-bottom:10px;
@@ -34,12 +34,12 @@
     margin:0;
     list-style: none;
     align-items: center;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
 .rightbarProfileImageContainer{
     margin-right: 15px;
     position: relative;
-  
+
 }
 .rightbarProfileImage{
     width: 40px;
@@ -95,7 +95,6 @@
 .rightbarfollowings{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-bottom: 10px;
 
 }

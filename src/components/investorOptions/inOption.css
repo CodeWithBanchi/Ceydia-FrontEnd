@@ -1,0 +1,52 @@
+.inOptiondiv{
+    flex:3;
+}
+.opTopic{
+    font-size:40px;
+    margin-left: 35px;
+    font-family:"Roboto Light";
+}
+.srchOp{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.qPacket{
+    background-color: #b1dcf6;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height:25px;
+}
+.qpackContent{
+    margin-left: 40px;
+    justify-content: center;
+}
+.qPacket:hover{
+    background-color: #95ceef;
+}
+.qpackContent:hover{
+    color: #fff
+    }
+.whatis{
+    margin-left: 80px;
+    font-size:12px;
+    color: blue;
+}
+.word{
+    color: blue;
+}
+.packContainer{
+    margin-top: 30px;
+
+}
+.packet{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.drangnDroptext{
+    font-size: small;
+    margin-left: 20px;
+    font-family:"Roboto Light";
+    color:gray;
+}

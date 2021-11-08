@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Supplier from "./pages/Supplier/Supplier";
 import Advisors from "./pages/Advisors/Advisors";
+import InvestorMode from "./pages/investorMode/InvestorMode";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
                        </Route>
                        <Route path="/advisors">
                            <Advisors/>
+                       </Route>
+                       <Route path="/investor_mode">
+                           <InvestorMode/>
                        </Route>
                    </Switch>
                 </div>

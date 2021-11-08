@@ -10,7 +10,7 @@
 }
 
 .topbarLeft{
-    flex:3;
+    flex:2;
 }
 .topbarCenter{
     flex:5;
@@ -25,17 +25,15 @@
 }
 .logo{
     font-size:40px;
-    margin-left: 20px;
     font-weight: bold;
     color:white;
     cursor: pointer;
     color: #FFFFFF;
     text-decoration: none;
-    margin-top:10px;
 }
-.logo.hover{
+.logo:hover{
     text-decoration: none;
-    color:white;
+    color: #f3b0b0;
 }
 .searchbox{
      width:80%;
@@ -72,11 +70,14 @@
 
 .topbarLink{
     margin-right: 10px;
-    font-style: 14px;
+    
     cursor: pointer;
     color: #FFFFFF;
     text-decoration: none;
     font-weight: bold;
+}
+.topbarLink:hover{
+    color: #eca8a8;
 }
 .topbarIcons{
     display: flex;
@@ -110,4 +111,27 @@
     text-decoration: none;
     font-weight: bold;
     margin-top:10px;
+}
+.logoCont{
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.inmode{
+    background-color: #b83d73;
+    border-radius: 10px;
+}
+.topbarLink1{
+    margin-right: 10px;
+
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.inmode:hover{
+    background-color: #fc7e07;
+    }
+.topbarLink1:hover{
+    color: #f8dce7;
 }

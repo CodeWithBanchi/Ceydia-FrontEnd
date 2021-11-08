@@ -8,7 +8,7 @@ import './Supplier.css';
 function Supplier() {
     return (
         <>
-        <Topbar/>
+        <Topbar mode="Investor Mode"/>
         <div className="supWrapper">
             <Sodebar/>
             <SupplierFeed/>

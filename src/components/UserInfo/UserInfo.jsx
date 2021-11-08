@@ -6,16 +6,16 @@ function UserInfo(props) {
     return (
         <div>
             <Card className="card" border="danger" style={{ width: '18rem' }}>
-                <Card.Header>My about info: </Card.Header>
+                <Card.Header>Advertisement </Card.Header>
                 <Card.Body>
-                    <Card.Title>Student NSBM Green University</Card.Title>
+                    <Card.Title>Best Project Management Tool For Everyone</Card.Title>
                     <Card.Text  className="cardText">
-                      I am doing Management Information Systems degree. Im very pumped for doing new things and I like new businesses and entrepreurship
-                        very much. My goal is to become an entrepreur one day and to be a proud Sri Lanakan.
+                      improve your productivity by using "ProMo". The best project management tool. Easy to use. Easy to manage.
+                        ProMo will save you lot of time in your projects. Check it out now.
                     </Card.Text>
+                    <h3>10.99 $ /Mo</h3>
                 </Card.Body>
             </Card>
-
         </div>
     );
 }

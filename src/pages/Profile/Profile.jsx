@@ -8,7 +8,7 @@ import Rightbar from "../../components/rightbar/Rightbar";
 const Profile = () => {
     return (
         <>
-            <Topbar/>
+            <Topbar mode="Investor Mode"/>
             <div className="profile">
                 <Sodebar/>
                   <dive className="profileRight">

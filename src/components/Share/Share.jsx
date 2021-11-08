@@ -31,21 +31,39 @@
                         className="shareinput2" />
              </div>
 
-             <Dropdown className="drop">
-                 <Dropdown.Toggle variant="success" id="dropdown-basic">
-                     Select Category
-                 </Dropdown.Toggle>
+             <div className="dropContainer">
+                 <Dropdown className="drop">
+                     <Dropdown.Toggle variant="success" id="dropdown-basic">
+                         Select Category
+                     </Dropdown.Toggle>
 
-                 <Dropdown.Menu>
-                     <Dropdown.Item href="#/action-1">IT</Dropdown.Item>
-                     <Dropdown.Item href="#/action-2">Sales and Marketing</Dropdown.Item>
-                     <Dropdown.Item href="#/action-3">Education</Dropdown.Item>
-                     <Dropdown.Item href="#/action-3">Fashion</Dropdown.Item>
-                     <Dropdown.Item href="#/action-3">Health</Dropdown.Item>
-                     <Dropdown.Item href="#/action-3">Online Shopping</Dropdown.Item>
+                     <Dropdown.Menu>
+                         <Dropdown.Item href="#/action-1">IT</Dropdown.Item>
+                         <Dropdown.Item href="#/action-2">Sales and Marketing</Dropdown.Item>
+                         <Dropdown.Item href="#/action-3">Education</Dropdown.Item>
+                         <Dropdown.Item href="#/action-3">Fashion</Dropdown.Item>
+                         <Dropdown.Item href="#/action-3">Health</Dropdown.Item>
+                         <Dropdown.Item href="#/action-3">Online Shopping</Dropdown.Item>
 
-                 </Dropdown.Menu>
-             </Dropdown>
+                     </Dropdown.Menu>
+                 </Dropdown>
+
+                 <Dropdown className="privacy">
+                     <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
+                         Privacy
+                     </Dropdown.Toggle>
+
+                     <Dropdown.Menu variant="dark">
+                         <Dropdown.Item href="#/action-1" active>
+                             Only Me
+                         </Dropdown.Item>
+                         <Dropdown.Item href="#/action-2">Public</Dropdown.Item>
+                         <Dropdown.Item href="#/action-3">Followers Only</Dropdown.Item>
+                         <Dropdown.Divider />
+                         <Dropdown.Item href="#/action-4">Group No.01</Dropdown.Item>
+                     </Dropdown.Menu>
+                 </Dropdown>
+             </div>
 
              <hr className="shareHr" />
 

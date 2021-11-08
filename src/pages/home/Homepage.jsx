@@ -8,7 +8,7 @@ import "./Home.css"
 function Homepage() {
     return (
 <>
-    <Topbar/>
+    <Topbar mode="Investor Mode"/>
     <div className="homeContainer">
           <Sodebar/>
           <Feed/>
