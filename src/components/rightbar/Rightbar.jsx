@@ -33,27 +33,27 @@ export default function Rightbar({profile}) {
                 </div>
                 <div className="rightbarfollowings">
                     <img className="rightbarfollowingIMG" src="assets/person/2.jpeg"/>
-                    <span className="rightbarfollowingName">Neluni Priyangika</span>
+                    <span className="rightbarfollowingName">Dasun Shanaka</span>
                 </div>
                 <div className="rightbarfollowings">
                     <img className="rightbarfollowingIMG" src="assets/person/3.jpeg"/>
-                    <span className="rightbarfollowingName">Neluni Priyangika</span>
+                    <span className="rightbarfollowingName"> Ann Perera </span>
                 </div>
                 <div className="rightbarfollowings">
                     <img className="rightbarfollowingIMG" src="assets/person/4.jpeg"/>
-                    <span className="rightbarfollowingName">Neluni Priyangika</span>
+                    <span className="rightbarfollowingName">Shehani Pilapitiya</span>
                 </div>
                 <div className="rightbarfollowings">
                     <img className="rightbarfollowingIMG" src="assets/person/6.jpeg"/>
-                    <span className="rightbarfollowingName">Neluni Priyangika</span>
+                    <span className="rightbarfollowingName"> Priyan Gunasekara</span>
                 </div>
                 <div className="rightbarfollowings">
                     <img className="rightbarfollowingIMG" src="assets/person/5.jpeg"/>
-                    <span className="rightbarfollowingName">Neluni Priyangika</span>
+                    <span className="rightbarfollowingName"> Thilini Perera</span>
                 </div>
                 <div className="rightbarfollowings">
                     <img className="rightbarfollowingIMG" src="assets/person/1.jpeg"/>
-                    <span className="rightbarfollowingName">Neluni Priyangika</span>
+                    <span className="rightbarfollowingName">Gimhani Narmada</span>
                 </div>
             </>
         )

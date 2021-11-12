@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Supplier from "./pages/Supplier/Supplier";
 import Advisors from "./pages/Advisors/Advisors";
 import InvestorMode from "./pages/investorMode/InvestorMode";
-
+import Groups from "./pages/groups/Groups";
 function App() {
   return (
       <Router>
@@ -30,6 +30,9 @@ function App() {
                        </Route>
                        <Route path="/investor_mode">
                            <InvestorMode/>
+                       </Route>
+                       <Route path="/groups">
+                           <Groups/>
                        </Route>
                    </Switch>
                 </div>

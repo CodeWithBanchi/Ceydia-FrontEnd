@@ -129,3 +129,20 @@
     justify-content: space-between;
 
 }
+.proposal{
+    margin-left: 10px;
+    margin-top: 10px;
+    color:blue;
+    cursor: pointer;
+}
+.read{
+    color: #6969d7;
+}
+.commnt{
+ margin-right: 10px;
+    cursor: pointer;
+}
+.mesage{
+    margin-right: 10px;
+    cursor: pointer;
+}

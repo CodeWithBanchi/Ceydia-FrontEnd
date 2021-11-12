@@ -83,7 +83,7 @@
                      </div>
                      <div className="shareOption">
                          <AddBoxIcon htmlColor="red" className="shareIcon"/>
-                         <span className="shareOptionText">Add Recomendations </span>
+                         <span className="shareOptionText">Attach Business Proposal</span>
                      </div>
                  </div>
                  <button className="shareButton">Share</button>

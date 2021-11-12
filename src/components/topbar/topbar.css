@@ -59,12 +59,15 @@
     outline:none;
 }
 .topbarImg{
-    width:45px;
-    height:45px;
+    width:40px;
+    height:40px;
     border-radius: 40px;
     cursor: pointer;
     object-fit: cover;
     margin-bottom: 15px;
+    border-style:solid;
+    border-color: #ee73a9;
+
 
 }
 

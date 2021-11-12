@@ -3,6 +3,8 @@ import "./Posts.css"
 import { MoreVert } from '@material-ui/icons'
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import FavoriteIcon from '@material-ui/icons/Favorite';
+import AssignmentIcon from '@material-ui/icons/Assignment';
+import MessageIcon from '@material-ui/icons/Message';
 import { Users } from "../../dummyData";
 
 
@@ -37,6 +39,7 @@ export default function Post({ post } ) {
                     </div>
                     <div className="postCenter">
                         <span className="postText">{post?.description}</span>
+                        <span className="read">Read More >></span>
                         <div className="postItems">
                             <div className="Box">
                                 <div className="boxText">
@@ -59,6 +62,10 @@ export default function Post({ post } ) {
 
 
                         </div>
+                        <div className="proposal">
+                            <AssignmentIcon htmlColor="blue"/>
+                            <span>Download Business Proposal</span>
+                        </div>
                         <img src={post.photo} alt="" className="postImage" />
                     </div>
                     <div className="postBottom">
@@ -69,6 +76,10 @@ export default function Post({ post } ) {
                         </div>
                         <div className="postBottomRight">
                             <span className="postCommentText"> {post.component}</span>
+                            <MessageIcon/>
+                            <span className="commnt">Add Comment</span>
+                            <MessageIcon/>
+                            <span className="mesage">Send Message</span>
                         </div>
                     </div>
                 </div> 

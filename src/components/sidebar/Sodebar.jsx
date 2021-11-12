@@ -1,7 +1,6 @@
 import React from 'react'
 import "./sidebar.css"
-import { RssFeed } from "@material-ui/icons"
-import ChatIcon from '@material-ui/icons/Chat';
+import MessageIcon from '@material-ui/icons/Message';
 import GroupIcon from '@material-ui/icons/Group';
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 import AnnouncementIcon from '@material-ui/icons/Announcement';
@@ -10,6 +9,7 @@ import {Users} from "../../dummyData";
 import CloseFriends from "../closeFriends/CloseFriends";
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import AssistantPhotoIcon from '@material-ui/icons/AssistantPhoto';
+import AssignmentIcon from '@material-ui/icons/Assignment';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import Spinner from 'react-bootstrap/Spinner'
@@ -41,14 +41,24 @@ export default function Sodebar() {
                        </span>
                    </li>
                    <li className="sidebarListItem">
+                       <MessageIcon/>
+                       <span className="sidebarListText">
+                           Messages
+                       </span>
+                   </li>
+                   <li className="sidebarListItem">
+                       <AssignmentIcon/>
+                       <span className="sidebarListText">
+                           Business Proposals
+                       </span>
+                   </li>
+                   <li className="sidebarListItem">
                        <GroupIcon/>
                        <Link className="sidebarListText" to="/advisors">Advisors </Link>
                    </li>
                    <li className="sidebarListItem">
                        <GroupIcon/>
-                       <span className="sidebarListText">
-                           My Groups
-                       </span>
+                       <Link className="sidebarListText" to="/groups">My Groups </Link>
                    </li>
                    <li className="sidebarListItem">
                        <AnnouncementIcon/>
