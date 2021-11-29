@@ -1,0 +1,11 @@
+.disContainer{
+    background-color: orangered;
+}
+.share1{
+    width: 100%;
+    height: 290px;
+    border-radius: 10px;
+    background-color:white;
+    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+}
