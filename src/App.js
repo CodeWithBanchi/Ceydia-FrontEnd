@@ -9,6 +9,7 @@ import Advisors from "./pages/Advisors/Advisors";
 import Proposals from "./pages/Proposals/Proposals";
 import InvestorMode from "./pages/investorMode/InvestorMode";
 import Groups from "./pages/groups/Groups";
+import Discussion from "./pages/Discussion/Discussion";
 function App() {
   return (
       <Router>
@@ -36,8 +37,12 @@ function App() {
                        <Route path="/groups">
                            <Groups/>
                        </Route>
+
                        <Route path="/proposals">
                            <Proposals/>
+                       </Route>
+                       <Route path="/discussion">
+                           <Discussion/>
                        </Route>
                        <Route path="/register">
                            <Register/>
