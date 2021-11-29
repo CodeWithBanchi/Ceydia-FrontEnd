@@ -24,7 +24,7 @@ export default function Sodebar() {
                <ul className="sidebarList">
                    <li className="sidebarListItem">
                        <FormatSizeIcon/>
-                       <Link className="sidebarListText" to="/discussion">Start Discussion</Link>
+                       <Link className="sidebarListText" to="/discussion">Discussions</Link>
                    </li>
                    <li className="sidebarListItem">
                        <TrendingUpIcon/>
