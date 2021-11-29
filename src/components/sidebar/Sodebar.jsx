@@ -4,7 +4,7 @@ import MessageIcon from '@material-ui/icons/Message';
 import GroupIcon from '@material-ui/icons/Group';
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 import AnnouncementIcon from '@material-ui/icons/Announcement';
-import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
+import FormatSizeIcon from '@material-ui/icons/FormatSize';
 import {Users} from "../../dummyData";
 import CloseFriends from "../closeFriends/CloseFriends";
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
@@ -22,6 +22,12 @@ export default function Sodebar() {
         <div className= "sidebar">
             <div className="sidebarWrapper">
                <ul className="sidebarList">
+                   <li className="sidebarListItem">
+                       <FormatSizeIcon/>
+                       <span className="sidebarListText">
+                           Start Discussion
+                       </span>
+                   </li>
                    <li className="sidebarListItem">
                        <TrendingUpIcon/>
                        <span className="sidebarListText">
@@ -48,9 +54,7 @@ export default function Sodebar() {
                    </li>
                    <li className="sidebarListItem">
                        <AssignmentIcon/>
-                       <span className="sidebarListText">
-                           Business Proposals
-                       </span>
+                       <Link className="sidebarListText" to="/proposals">Business Proposals </Link>
                    </li>
                    <li className="sidebarListItem">
                        <GroupIcon/>

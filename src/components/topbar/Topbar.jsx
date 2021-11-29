@@ -11,7 +11,7 @@ function Topbar(props) {
         <div className="topbarcontainer">
             <div className="topbarLeft"> 
               <div className="logoCont">
-                  <Link className="logo" to="/">Ceydia</Link>
+                  <Link className="logo" to="/home">Ceydia</Link>
               </div>
             </div>
 
@@ -27,7 +27,7 @@ function Topbar(props) {
                 <div className="inmode">
                     <Link className="topbarLink1" to="/investor_mode">{props.mode}</Link>
                 </div>
-                <Link to="/" className="topbarLink">Homepage</Link>
+                <Link to="/home" className="topbarLink">Homepage</Link>
                 <Link className="topbarLink" to="/Profile">Profile</Link>
 
                 <div className="topbarIcons">

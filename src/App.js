@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Supplier from "./pages/Supplier/Supplier";
 import Advisors from "./pages/Advisors/Advisors";
+import Proposals from "./pages/Proposals/Proposals";
 import InvestorMode from "./pages/investorMode/InvestorMode";
 import Groups from "./pages/groups/Groups";
 function App() {
@@ -14,17 +15,18 @@ function App() {
                 <div >
                    <Switch>
                        <Route  exact path="/">
-                           <Homepage/>
+                           <Login/>
                        </Route>
                        <Route path="/profile">
                            <Profile/>
                        </Route>
+                       <Route path="/home">
+                           <Homepage/>
+                       </Route>
                        <Route path="/Supplier">
                            <Supplier/>
                        </Route>
-                       <Route path="/Login">
-                           <Login/>
-                       </Route>
+
                        <Route path="/advisors">
                            <Advisors/>
                        </Route>
@@ -33,6 +35,12 @@ function App() {
                        </Route>
                        <Route path="/groups">
                            <Groups/>
+                       </Route>
+                       <Route path="/proposals">
+                           <Proposals/>
+                       </Route>
+                       <Route path="/register">
+                           <Register/>
                        </Route>
                    </Switch>
                 </div>
