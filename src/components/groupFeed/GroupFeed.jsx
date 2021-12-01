@@ -8,7 +8,7 @@ import FormControl from 'react-bootstrap/FormControl'
 function GroupFeed(props) {
     return (
         <div className="gfeed">
-            <h1 className="gtopic"> Caydia Groups </h1>
+            <h1 className="gtopic"> Ceydia Groups </h1>
               <div className="grpOption">
                   <div className="creategrp">
                       <AddCircleOutlineIcon htmlColor="white"/>
@@ -32,7 +32,7 @@ function GroupFeed(props) {
                 <div className="gbox">
                     <img className="grpImg" src="/assets/group/1.png"/>
                     <div className="grpTitle">
-                        <span>Software Engeneers Club </span>
+                        <span>Software Engineers Club </span>
                         <h4 className="grpdecs">This is a group of software engenners in Sri Lanka. You can share your business ideas related to the software engeneering
                         and IT feild. </h4>
                     </div>
@@ -65,7 +65,7 @@ function GroupFeed(props) {
                 <div className="gbox">
                     <img className="grpImg" src="/assets/group/3.jpg"/>
                     <div className="grpTitle">
-                        <span>Hotel and Tourisome</span>
+                        <span>Hotel and Tourism</span>
                         <h4 className="grpdecs"> If you are a person who interested in hotel and tourisome industry this is the place for you to talk with the expersts and share your ideas
                            </h4>
                     </div>

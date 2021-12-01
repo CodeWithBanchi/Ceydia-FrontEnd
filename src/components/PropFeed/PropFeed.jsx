@@ -86,6 +86,7 @@ function PropFeed(props) {
                         <input placeholder="Conclution" className="itemInput2"/>
                     </div>
                 </div>
+                <button className="shr1">Create Business Proposal</button>
             </div>
         </div>
     );
